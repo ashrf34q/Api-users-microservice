@@ -14,7 +14,7 @@ class UserMapperTest {
         user.setUserId("43");
         user.setFirstName("Ashraf");
         user.setLastName("Makki");
-        user.setEncryptPass("test");
+        user.setEncryptedPass("test");
         user.setPassword("POSL");
 
         UserEntity userEntity = UserMapper.INSTANCE.userDTOToUserEntity(user);

@@ -6,7 +6,7 @@ public class UserDTO implements Serializable {
     private String firstName;
     private String lastName;
     private String password;
-    private String encryptPass;
+    private String encryptedPass;
     private String email;
     private String userId;
 
@@ -34,12 +34,12 @@ public class UserDTO implements Serializable {
         this.password = password;
     }
 
-    public String getEncryptPass() {
-        return encryptPass;
+    public String getEncryptedPass() {
+        return encryptedPass;
     }
 
-    public void setEncryptPass(String encryptPass) {
-        this.encryptPass = encryptPass;
+    public void setEncryptedPass(String encryptedPass) {
+        this.encryptedPass = encryptedPass;
     }
 
     public String getEmail() {
